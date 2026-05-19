@@ -2,7 +2,7 @@
 title: "Final Project"
 author: Lena Nezamzadeh, Ria Bhatia
 format: html
-editor: visual
+editor: source
 embed-resources: true
 ---
 
@@ -26,3 +26,14 @@ You can add options to executable code like this
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+
+## Sample Section
+
+```{r}
+
+add <- function(x,y){
+  x + y
+}
+
+add(2,3)
+```
